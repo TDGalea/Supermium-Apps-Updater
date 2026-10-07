@@ -1,3 +1,8 @@
+' Supermium Apps Updater by TDGalea.
+' Not affiliated with Supermium in any way. Though I wouldn't mind if this was implemented into the browser itself in some way...
+' This script will only work on Vista (and up I guess, if Supermium ever breaks for 7 onward...).
+' There is a separate version for XP.
+
 On Error Resume Next
 
 Set oShell   = WScript.CreateObject("WScript.Shell")
@@ -54,4 +59,4 @@ For Each profFolder in userData.SubFolders
 	End If
 Next
 
-x = msgbox("The following WebApp shortcuts have been created:" + appList,64,"Supermium Vista WebApps Updater")
+x = msgbox("The following WebApp shortcuts have been created:" + appList,64,"Supermium Apps Updater")
